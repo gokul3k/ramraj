@@ -165,6 +165,9 @@ font-weight: bold;
 .latest .card{
   height: 400px;
 }
+.latest .card:hover{
+  cursor: pointer;
+}
 .latest .card .card-body h5{
   font-weight: bold;
   margin-left: 14px;
@@ -212,6 +215,9 @@ font-weight: bold;
 .locations{
   background-color: #ffffff;
   padding-bottom: 50px;
+}
+.locations .card:hover{
+  background-color: #ffb606;
 }
 .locations h2{
   padding-top: 50px;
